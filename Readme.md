@@ -1,7 +1,7 @@
 # My current jshint config
 Here is the jshint config that I add to most projects.
 
-## Adding to you dot files
+## Adding to your dot files
 
      git clone git://github.com/serby/jshint-config ~/jshint-config
      ln -s ~/jshint-config/jshint-config.json ~/.jshintrc
