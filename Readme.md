@@ -11,6 +11,6 @@ Here is the jshint config that I add to most projects.
 If you want to get this into your project you can do the following
 
      mkdir support
-     curl https://github.com/serby/jshit-config/raw/master/jshint-config.json > support/jshint-config.json
+     curl https://raw.github.com/serby/jshint-config/master/jshint-config.json > support/jshint-config.json
      git add support/jshint-config.json
      git commit -m 'Adding jshint-config.json from github.com/serby/jshint-config' support/jshint-config.json
