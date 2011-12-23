@@ -13,5 +13,9 @@
 	"nonew": true,				// if using `new` for side-effects should be disallowed
 	"trailing": false,		// if trailing whitespace rules apply
 	"immed": false,				// if immediate invocations must be wrapped in parens
-	"smarttabs": true			// if smarttabs should be tolerated
+	"smarttabs": true,		// if smarttabs should be tolerated
+	"predef": [
+		"describe",					// Used by mocha
+		"it"								// Used by mocha
+	]
 }
