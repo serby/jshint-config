@@ -4,6 +4,7 @@
 	"newcap": true,				// constructor names must be capitalized
 	"eqeqeq": true,				// if === should be required
 	"eqnull": true,				// if == null comparisons should be tolerated
+	"es5": true,					// Allow ecma5
 	"undef": true,				// if variables should be declared before used
 	"devel": true,				// if logging globals should be predefined (console, alert, etc
 	"node": true,					// if the Node.js environment globals should be predefined
