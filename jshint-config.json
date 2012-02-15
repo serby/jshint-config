@@ -23,7 +23,9 @@
     "beforeEach",
     "after",
     "afterEach",
-    "unescape"
+    "unescape",
+    "Ext",
+    "io"
   ],
   "smarttabs": true,
   "trailing": false,
