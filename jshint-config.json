@@ -30,5 +30,6 @@
 	],
 	"smarttabs": true,
 	"trailing": false,
-	"undef": true
+	"undef": true,
+	"strict": false
 }
