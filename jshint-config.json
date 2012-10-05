@@ -4,7 +4,7 @@
   "devel": true,
   "eqeqeq": true,
   "eqnull": true,
-  "es5": false,
+  "es5": true,
   "evil": false,
   "immed": false,
   "jquery": true,
@@ -17,6 +17,8 @@
   "nonew": true,
   "predef":
   [
+    "async",
+    "Firmin",
     "after",
     "afterEach",
     "before",
@@ -29,7 +31,8 @@
     "unescape",
     "Munchkin",
     "mktoMunchkinFunction",
-    "_"
+    "_",
+    "emit"
   ],
   "smarttabs": true,
   "strict": false,
