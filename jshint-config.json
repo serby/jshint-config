@@ -1,7 +1,12 @@
 {
+  "asi": true,
+  "boss": true,
   "browser": true,
   "curly": true,
   "devel": true,
+  "maxdepth": 4,
+  "maxstatements": 25,
+  "maxcomplexity": 5,
   "eqeqeq": true,
   "eqnull": true,
   "es5": true,
