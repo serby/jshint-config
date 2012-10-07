@@ -1,16 +1,18 @@
-# My current jshint config
-Here is the jshint config that I add to most projects.
+# My current .jshintrc
 
-## Adding to your dot files
+Here is the .jshintrc that I use for all new JavaScript projects.
+
+## Adding to your dot files (*nix)
 
      git clone git://github.com/serby/jshint-config ~/jshint-config
      ln -s ~/jshint-config/jshint-config.json ~/.jshintrc
 
 ## Adding to your project
 
-If you want to get this into your project you can do the following
+Putting a copy in your project root will ensure that the project always has the same jshint config 
+even if your global .jshintrc config changes. Also it allow you to put project specific predefs that
+don't belone belong in your global.
 
-     mkdir support
-     curl https://raw.github.com/serby/jshint-config/master/jshint-config.json > support/jshint-config.json
-     git add support/jshint-config.json
-     git commit -m 'Adding jshint-config.json from github.com/serby/jshint-config' support/jshint-config.json
+     curl https://raw.github.com/serby/jshint-config/master/jshint-config.json > .jshintrc
+     git add .jshintrc
+     git commit -m 'Adding .jshintrc from github.com/serby/jshint-config' .jshintrc
